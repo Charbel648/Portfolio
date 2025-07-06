@@ -83,7 +83,7 @@ html {
 .closebtn {
   position: absolute;
   top: 15px;
-  right: 25px;
+  right: 0px;
   text-decoration: none;
 }
 
@@ -385,44 +385,72 @@ html {
 
 @media (max-width: 768px) {
 
-  .navbar,
-  .footer {
+
+  .navbar
+  {
+    flex-direction: row;
+    padding-top: 50px ;
+    padding-left: 0;
+  }
+  .footer
+  {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
-  .right a,
-  .left a,
+  .navbar,
+  .footer 
+  {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
   .middle a,
-  .footer.left a {
+  .footer.left a 
+  {
     margin: 10px 0;
     font-size: medium;
   }
-  .menu {
+
+  .right a,
+  .left a 
+  {
+    margin: 5px;
+    font-size: medium;
+  }
+
+  .menu 
+  {
     display: block;
   }
 
 
-  .Home {
+  .Home 
+  {
     height: auto;
     padding: 60px 20px;
   }
 
-  .name {
+  .name 
+  {
     padding-top: 20px;
     font-size: 24px;
   }
 
-  .Image img {
+  .Image img 
+  {
     width: 100%;
     max-width: 280px;
     height: auto;
   }
 
-  .project_container {
+
+  .project_container 
+  {
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    margin: -50px;
   }
 
   .project_block
@@ -432,28 +460,33 @@ html {
   }
 
 
-  .design {
+  .design 
+  {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
   }
 
-  .textbutton {
+  .textbutton 
+  {
     flex-direction: column;
     width: 100%;
   }
 
   .submit,
-  .btn {
+  .btn 
+  {
     width: 100%;
     justify-content: center;
   }
 
-  .social-links {
+  .social-links 
+  {
     align-items: center;
   }
 
-  .logos img {
+  .logos img 
+  {
     width: 40px;
     height: 40px;
   }
@@ -461,7 +494,8 @@ html {
   .About_me,
   .Projects,
   .Skills,
-  .Contact_me {
+  .Contact_me 
+  {
     padding: 20px;
     text-align: center;
   }

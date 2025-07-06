@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="navbar.js" defer></script>
+    <script src="footer.js" defer></script>
+    <script src="conditions.js" defer></script>
+    
+</head>
+<body>
+
+
+    <div id="navbar"></div>
+    
+    
+    <div class="menu" id="menu" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn">X</a>
+        <a href="#home">Home</a>
+        <a href="#about_me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact_me">Contact Me</a>
+    </div>
+
+        <div class="Home" id="home">
+            <div class="name">
+            <h1>Charbel Faddoul</h1>
+            </div>
+            <div class="developer">
+                <h1>I'm a developer</h1>
+            </div>
+            <div >
+               <h2><a href="#about_me" class="more">learn more</a></h2> 
+            </div>
+        </div> 
+      
+
+        <div class="About_me" id="about_me">
+            <h1>About me: </h1>
+            <h2> Hello, I'm <strong>Charbel Faddoul</strong>, a fourth-year Computer and Communication Engineering student at
+            <strong>Saint Joseph University of Beirut</strong>. I'm passionate about technology, programming, and problem-solving.
+            My work focuses on developing efficient software solutions, exploring AI, and building impactful web and desktop applications.
+            Welcome to my portfolio — here, you'll find my projects, skills, and ways to connect!
+            </h2>
+            <div class="CV">
+                <a href="Charbel-Faddoul-CV.pdf" class="btn" download> Donwload my CV</a>
+            </div>
+            <div class="Image">
+                <img src="WhatsApp Image 2025-07-02 at 21.18.09_f08dcbce.jpg" alt="profile" >
+            </div>
+
+        <div class="Projects" id="projects">
+            <h1>Projects: </h1>
+            <div class="project_container">
+                <div class="project_block" >
+                    <div class="block1"><a href="https://devspace.vercel.app" class="more" target="_blank"><h1>Devspace</h1></a>
+                        <h3><li>A blogging platform clone where developers can write and share articles</li></h3>
+                        <h3><li>Features: User auth, post editor, comments, likes, responsive design</li></h3>
+                        <h3><li>Built With: Next.js, Tailwind CSS, MongoDB, Firebase Auth</li></h3>
+                    </div>
+                </div>
+                <div class="project_block">
+                   <div class="block2"><a href="https://github-finder-nu-one.vercel.app" class="more" target="_blank"><h1>GitHub Finder App </h1></a>
+                        <h3><li>A web app that lets users search GitHub profiles by username and display their public info, repos, and stats.</li></h3>
+                        <h3><li>Built With: React, GitHub API, Tailwind</li></h3>
+                    </div> 
+                </div>
+                <div class="project_block">
+                    <div class="block3"><a href="https://taskify-board.vercel.app" class="more" target="_blank"><h1>Taskify</h1></a>
+                        <h3><li>A Trello-like kanban task manager with drag-and-drop</li></h3>
+                        <h3><li>Features: Drag-and-drop, local storage or Firebase backend, responsive UI.</li></h3>
+                        <h3><li>Built With: React, Zustand, TypeScript, Tailwind CSS</li></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="Skills" id="skills">
+                <h1>Skills:</h1>
+                <h2> <u>Hard Skills:</u></h2>
+                <div class="logos">
+                    <div class="logoname"><h2> C++ </h2>
+                        <img src="C++.png" alt="C++">
+                    </div>
+                    <div class="logoname"><h2> Python </h2>
+                        <img src="Python.png" alt="Python">
+                    </div>
+                    <div class="logoname"><h2> Matlab </h2>
+                        <img src="matlab.webp" alt="Matlab">
+                    </div>
+                    <div class="logoname"><h2> Power Point </h2>
+                        <img src="Power Point.png" alt="Power point">
+                    </div>
+                    <div class="logoname"><h2> Word </h2>
+                        <img src="Word.png" alt="Word">
+                    </div>
+                    <div class="logoname"><h2> Excel </h2>
+                        <img src="Excel.png" alt="Excel">
+                    </div>
+                    <div class="logoname"><h2> Cisco Networking </h2>
+                        <img src="cisco.png" alt="Cisco Networking">
+                    </div>
+                    <div class="logoname"><h2> MySQL </h2>
+                        <img src="mysql.png" alt="MySQL">
+                    </div>
+
+                </div>
+                <h2> <u>Soft Skills:</u>  Time Management, Teamwork, Responsible, Communication skills, Attention to details, Interpersonalskills, Commitment,
+                Organization.</h2>
+                
+            </div>
+
+        <div class="Contact_me" id="contact_me">
+            <h1>My Socials:</h1>
+        </div >
+
+
+        <div class="design">
+            <div >
+               <h2>Charbel Faddoul</h2>
+            </div>
+            <div class="contacts">
+                <div class="message">
+                    <input type="text" id="name" placeholder="Write your name">
+                    <input type="text" id ="email" placeholder="Write your email">
+                    <textarea name="textarea" placeholder="write me something ..." id="msg"></textarea>
+                    <button onclick="submitbutton()" class="submit" type="submit">Submit</button>
+                    <p id="error" style="color: red;"></p>
+                </div>
+                <div class="nav">
+                    <a href="tel:+961 70669275" class="Call">Call me (+961 70/669275) </a>
+                </div>
+                
+                    
+            </div>
+        </div>
+
+    <div id="footer"></div>
+
+</body>
+</html>
