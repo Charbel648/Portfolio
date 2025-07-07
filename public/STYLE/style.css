@@ -191,7 +191,7 @@ html {
 {
     width:100%;
     max-width: 400px;
-    background-image: url("ASSETS/IMAGES/dev_space.png");
+    background-image: url("../ASSETS/IMAGES/dev_space.png");
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -204,7 +204,7 @@ html {
 {
     width:100%;
     max-width: 400px;
-    background-image: url("ASSETS/IMAGES/github.png");
+    background-image: url("../ASSETS/IMAGES/github.png");
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -216,7 +216,7 @@ html {
 {
     width:100%;
     max-width: 400px;
-    background-image: url("ASSETS/IMAGES/taskify.jpeg");
+    background-image: url("../ASSETS/IMAGES/taskify.jpeg");
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
