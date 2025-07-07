@@ -1,0 +1,42 @@
+Folder PATH listing for volume Windows
+Volume serial number is 8056-D92F
+C:.
+¦   .firebaserc
+¦   .gitignore
+¦   firebase.json
+¦   structure.txt
+¦   
++---ASSETS
+¦   +---IMAGES
+¦   ¦       C++.png
+¦   ¦       cisco.png
+¦   ¦       dev_space.png
+¦   ¦       Excel.png
+¦   ¦       facebook.png
+¦   ¦       github black.jpeg
+¦   ¦       github.png
+¦   ¦       insta.png
+¦   ¦       matlab.webp
+¦   ¦       mysql.png
+¦   ¦       Power Point.png
+¦   ¦       Python.png
+¦   ¦       taskify.jpeg
+¦   ¦       WhatsApp Image 2025-07-02 at 21.18.09_f08dcbce.jpg
+¦   ¦       Word.png
+¦   ¦       
+¦   +---PDF
+¦           Charbel-Faddoul-CV.pdf
+¦           
++---HTML
+¦       footer.html
+¦       index.html
+¦       navbar.html
+¦       
++---JAVASCRIPT
+¦       conditions.js
+¦       footer.js
+¦       navbar.js
+¦       
++---STYLE
+        style.css
+        
