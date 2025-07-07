@@ -174,7 +174,6 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 40px;
 }
 
 .project_block
@@ -449,8 +448,8 @@ html {
   {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    margin: -50px;
+    padding: 40px;
+    /* margin: -20px; */
   }
 
   .project_block
@@ -491,11 +490,15 @@ html {
     height: 40px;
   }
 
+
+
+
   .About_me,
   .Projects,
   .Skills,
   .Contact_me 
   {
+    margin-left: 0px ;
     padding: 20px;
     text-align: center;
   }
