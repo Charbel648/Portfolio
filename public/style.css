@@ -186,6 +186,7 @@ html {
     position: relative;
 }
 
+
 .block1
 {
     width:100%;
@@ -224,6 +225,22 @@ html {
 
 }
 
+.block1::before,
+.block2::before,
+.block3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3); /* Dark overlay */
+    z-index: 0;
+}
+
+
+.block1 > *, .block2 > *, .block3 > * {
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
 
 .Skills
 {
